@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
            val selected =  binding.radioGroupTemp.checkedRadioButtonId
 
             val valor = when (selected) {
-                R.id.radioButton_C  -> "Celsius"
+                R.id.radioButton_C  -> "Celsius 2.0"
                 else -> "Fahrenheit"
 
             }
